@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="fab fa-git-alt"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.github.com">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#grafica">Grafica</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <h1 class="text-center">¿Qué es un sistema de control de versiones?</h1>
+                <p class="text-center">
+                    Un sistema de control de versiones es un software que permite mantener un historial de las distintas versiones de un desarrollo. Este sistema básicamente y a grandes rasgos, consiste en almacenar copias de los ficheros que contienen el código fuente del proyecto en cada uno de sus estados. Esto permite tener siempre a mano el código fuente disponible de un programa, en cada una de sus versiones y/o en una fecha concreta.
+                </p>
+            </div>
+            <div class="col-md-12 mt-5">
+                <h1 class="text-center">Ventajas del uso de un sistema de control de versiones</h1>
+                <p class="text-center">
+                    Utilizar un sistema de control de versiones tiene, entre otras, las siguientes ventajas:
+                </p>
+                <ol>
+                    <li>Permite mantener un histórial de todo el desarrollo del proyecto.</li>
+                    <li>Añade trazabilidad al desarrollo de software, ya que se puede ver qué cambios se han hecho en el código en cada versión.</li>
+                    <li>Muestra mucha información estadística de cómo se está desarrollando el proyecto (principales autores, número de versiones, cambios, etc.).</li>
+                    <li>Facilita mucho el trabajo en equipo.</li>
+                    <li>Permite desarrollar varias versiones de un mismo programa a la vez.</li>
+                </ol>
+            </div>
+            <div class="col-md-12 mt-5">
+                <h1 class="text-center">Inconvenientes del uso de un sistema de control de versiones</h1>
+                <p class="text-center">
+                    Los principales inconvenientes del uso de un sistema de control de versiones son:
+                </p>
+                <ol>
+                    <li>Presentan una curva de aprendizaje un poco elevada.</li>
+                    <li>Sólo se aprovechan de manera completa si se tiene este sistema en un servidor siempre disponible.</li>
+                    <li>Su uso sin interfaz gráfica puede resultar bastante complejo.</li>
+                </ol>
+            </div>
+            <div class="container">
+                <div class="col-12 text-center mt-5 mb-5">
+                    <center>
+                        <div class="w-50" id="grafica">
+                            <canvas id="migrafica" width="200" height="200"></canvas>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div class="col-md-12 mb-5">
+                <p class="text-center">
+                    Como puedes ver, las ventajas superan ampliamente a las desventajas, pero todavía hay en muchas organizaciones que no se utilizan. Esto es debido, en muchos casos, a que sus empleados no están formados en el uso de estas herramientas.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/script.js"></script>
+</html>
