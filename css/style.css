@@ -13,3 +13,11 @@ html{
         width: 50%;
     }
 }
+
+.mostrar{
+    display: block;
+}
+
+.ocultar{
+    display: none;
+}
