@@ -27,6 +27,8 @@ var pieChart = new Chart(grafica, {
 var quees = document.getElementById("quees");
 var ventajas = document.getElementById("ventajas");
 var instalacion = document.getElementById("instalacion");
+var botonnav = document.getElementById("botonnav");
+var navbarNav = document.getElementById("navbarNav");
 
 //Contenido a mostrar y ocultar
 var contenidoquees = document.getElementById("contenidoquees");
