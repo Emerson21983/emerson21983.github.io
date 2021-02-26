@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<body style="background-color: aliceblue">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-4 mt-5 d-flex align-items-center justify-content-center">
+               <div class="card">
+                    <div class="card-header">
+                        Calcular el area de una esfera 
+                    </div>
+                    <div class="card-body">
+                        <form action="calcular.php" method="post" id="formEsfera">
+                            <input type="number" id="esfera" name="esfera" class="form-control">
+                            <center>
+                                <input class="btn btn-primary mt-3" type="submit" value="Calcular" id="enviarEsfera">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5 d-flex align-items-center justify-content-center">
+               <div class="card">
+                    <div class="card-header">
+                        Calcular el area de un cubo 
+                    </div>
+                    <div class="card-body">
+                        <form action="calcular.php" method="post" id="formCubo">
+                            <input type="number" id="cubo" name="cubo" class="form-control">
+                            <center>
+                                <input class="btn btn-primary mt-3" type="submit" value="Calcular" id="enviarCubo">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5 d-flex align-items-center justify-content-center">
+               <div class="card">
+                    <div class="card-header">
+                        Calcular el area de un cilindro
+                    </div>
+                    <div class="card-body">
+                        <form action="calcular.php" method="post" id="formCilindro">
+                            <input type="number" id="cilindro" name="cilindro" class="form-control">
+                            <center>
+                                <input class="btn btn-primary mt-3" type="submit" value="Calcular" id="enviarCilindro">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/agregar.js"></script>
+</html>
