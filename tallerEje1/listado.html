@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de numeros enteros</title>
+</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5 d-flex align-items-center justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        Ingreso de numeros enteros de todo tipo
+                    </div>
+                    <div class="card-body">
+                        <input type="number" class="form-control" id="numero" name="numero" pattern="[0-9]">
+                        <center>
+                            <button class="btn btn-primary mt-3" type="button" id="ingresarNumeros">Ingresar</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5 d-flex align-items-center justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        Numeros ingresados
+                    </div>
+                    <form id="numIngresados" name="numIngresados" action="listado.php" method="POST">
+                        <div class="card-body">
+                           <select id="ingresados" name="ingresados[]" size="6" multiple="multiple" class="form-control"></select>
+                            <center>
+                                <input class="btn btn-primary mt-3" type="button" id="enviarNumeros" value="Enviar">
+                            </center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/agregar.js"></script>
+</html>
