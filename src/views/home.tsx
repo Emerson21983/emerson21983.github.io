@@ -281,7 +281,10 @@ const Home = () =>{
             </footer>
             <section className="bg-purple-bfooter py-4">
             <NavLink to={"/CreacionProfileEmpresa"}>
-                           Aqui
+                           Perfil empresa
+                        </NavLink>
+                        <NavLink to={"/CreacionProfileFreelancer"}>
+                           Perfil Freelancer
                         </NavLink>
                <div className="grid grid-cols-1 sm:grid-cols-3">
                   <div>
