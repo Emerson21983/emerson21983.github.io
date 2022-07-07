@@ -280,8 +280,8 @@ const Home = () =>{
                   </div>
             </footer>
             <section className="bg-purple-bfooter py-4">
-            <NavLink onClick={hideNavbar} to={"/CreacionProfileEmpresa"}>
-                           <img className="w-12 rounded-full" src="https://th.bing.com/th/id/OIP.4hKEfuR0MgutxgsYBz0QbQHaHa?w=166&h=180&c=7&r=0&o=5&pid=1.7" alt="user photo" />
+            <NavLink to={"/CreacionProfileEmpresa"}>
+                           Aqui
                         </NavLink>
                <div className="grid grid-cols-1 sm:grid-cols-3">
                   <div>
