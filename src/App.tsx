@@ -2,6 +2,7 @@
 import React from 'react';
 // css
 import './App.css';
+import './css/main.css';
 
 // Components
 import RouterApp from './components/Router/Routers';

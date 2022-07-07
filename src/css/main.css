@@ -1,0 +1,35 @@
+.estilo-navbar {
+    position: absolute;
+    inset: auto auto 0px 0px;
+    margin: 0px;
+    transform: translate(1126px, 1007px);
+}
+
+/* animaciones modal */
+.bg-fadeIn{
+   @apply animate-fadeIn ease-in;
+   animation-duration: 0.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+
+.bg-fadeOut{
+   @apply animate-fadeOut ease-in;
+   animation-duration: 0.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+
+.modal-scaleIn{
+   @apply animate-scaleIn ease-in;
+   animation-duration: 0.3s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+
+.modal-scaleout{
+   @apply animate-scaleOut ease-in;
+   animation-duration: 0.3s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
